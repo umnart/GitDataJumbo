@@ -28,5 +28,10 @@ namespace ProjectGUI.Class
             return "Meaowwwwwwwwwwwww !";
         }
 
+        public string move()
+        {
+            return "Super RUNNNNNNNNNN !!!!!";
+        }
+
     }
 }

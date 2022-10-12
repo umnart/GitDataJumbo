@@ -29,9 +29,26 @@ namespace ProjectGUI
 
             //MessageBox.Show("Hello" + "  " +customer.Name +"  "+ customer.Lastname1 );
 
-            Class.Cat cat = new Class.Cat();
-            MessageBox.Show(cat.breathing());
-            MessageBox.Show(cat.cry());
+            //Class.Cat cat = new Class.Cat();
+            //MessageBox.Show(cat.breathing());
+            //MessageBox.Show(cat.cry());
+
+            //MessageBox.Show(cat.move());
+
+
+
+            Class.Square square = new Class.Square();
+
+            Class.Square square2 = new Class.Square();
+
+
+            square.Side = 5;
+            square2.Side = 10;
+
+
+            MessageBox.Show(square.Area().ToString());
+
+            MessageBox.Show(square2.Area().ToString());
 
         }
 

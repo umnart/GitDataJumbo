@@ -76,6 +76,8 @@
     <Compile Include="Class\Animal.cs" />
     <Compile Include="Class\Cat.cs" />
     <Compile Include="Class\Customer.cs" />
+    <Compile Include="Class\Shapes.cs" />
+    <Compile Include="Class\Square.cs" />
     <Compile Include="FrmCustomer.xaml.cs">
       <DependentUpon>FrmCustomer.xaml</DependentUpon>
     </Compile>
