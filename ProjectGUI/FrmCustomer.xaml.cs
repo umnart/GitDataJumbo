@@ -23,11 +23,21 @@ namespace ProjectGUI
         {
             InitializeComponent();
 
-            Customer customer = new Customer();
-            customer.Name = "Jumbo";
-            customer.Lastname1 = "TwoYou";
+            //Customer customer = new Customer();
+            //customer.Name = "Jumbo";
+            //customer.Lastname1 = "TwoYou";
 
-            MessageBox.Show("Hello" + "  " +customer.Name +"  "+ customer.Lastname1 );            
+            //MessageBox.Show("Hello" + "  " +customer.Name +"  "+ customer.Lastname1 );
+
+            Class.Cat cat = new Class.Cat();
+            MessageBox.Show(cat.breathing());
+            MessageBox.Show(cat.cry());
+
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

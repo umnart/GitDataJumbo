@@ -18,3 +18,23 @@ D:\JOB\2018\Develop\05-Professional C#\Lecture7\ProjectGUI\obj\Debug\FrmExpenses
 D:\JOB\2018\Develop\05-Professional C#\Lecture7\ProjectGUI\obj\Debug\FrmExpenses.baml
 D:\JOB\2018\Develop\05-Professional C#\Lecture7\ProjectGUI\obj\Debug\FrmCustomer.g.cs
 D:\JOB\2018\Develop\05-Professional C#\Lecture7\ProjectGUI\obj\Debug\FrmCustomer.baml
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\bin\Debug\ProjectGUI.exe.config
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\ProjectGUI.exe
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\ProjectGUI.pdb
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\ProjectGUI.csprojResolveAssemblyReference.cache
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\FrmCustomer.g.cs
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\FrmExpenses.g.cs
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\Login.g.cs
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\MainWindow.g.cs
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\App.g.cs
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\ProjectGUI_MarkupCompile.cache
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\ProjectGUI_MarkupCompile.lref
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\bin\Debug\ProjectGUI.exe
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\bin\Debug\ProjectGUI.pdb
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\FrmCustomer.baml
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\FrmExpenses.baml
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\Login.baml
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\MainWindow.baml
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\ProjectGUI.g.resources
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\ProjectGUI.Properties.Resources.resources
+C:\Users\UMNART\Documents\GitHub\GitDataJumbo\ProjectGUI\obj\Debug\ProjectGUI.csproj.GenerateResource.Cache

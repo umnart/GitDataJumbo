@@ -5,6 +5,4 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectGUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="559.717" Width="940.182">
-    <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="163" Margin="80,195,0,0" VerticalAlignment="Top" Width="316"/>
-</Window>
+        Title="MainWindow" Height="559.717" Width="940.182"/>
