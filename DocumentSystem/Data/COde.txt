@@ -1,0 +1,203 @@
+Private Sub B_Inquiry_Click()
+    Dim cri As String
+    Dim cDept As String
+    Dim cCrsecod As String
+    Dim cDeptcod As String
+    Dim cRevNo As Integer
+    Dim cEndDate As String
+    Dim cFname As String
+    Dim cLname As String
+    
+    If IsNull(Me![OG_EmpTypeID]) Or Me![OG_EmpTypeID] = "" Then
+         MsgBox "Invalid Employee Type, Please Try Again.", vbExclamation, Prg_Title
+         Me![OG_EmpTypeID].Requery
+        Exit Sub
+    End If
+    
+    If IsNull(Me![T_StartDate]) Or Me![T_StartDate] = "" Then
+         MsgBox "Invalid From Rev.Date , Please Try Again.", vbExclamation, Prg_Title
+         Me![T_StartDate].Requery
+        Exit Sub
+    End If
+    
+    DoCmd.SetWarnings False
+    DoCmd.RunSQL "Delete from QEf_TrnnHist_Rev_w1"
+    DoCmd.SetWarnings True
+    
+    Set db = CurrentDb
+    cri = DLookup("deptcod", "ITm_Wrklog")
+     cDept = DLookup("deptcod", "ITm_Wrklog")
+    
+    csql = "SELECT  QEa_TrnnHist.* " & _
+                "FROM QEa_TrnnAssign LEFT JOIN QEa_TrnnHist ON (QEa_TrnnAssign.DeptCod = QEa_TrnnHist.DeptCod) " & _
+                "AND (QEa_TrnnAssign.CrseCode = QEa_TrnnHist.CrseCode) AND (QEa_TrnnAssign.EmpTypeID = QEa_TrnnHist.EmpTypeID) " & _
+                "AND (QEa_TrnnAssign.PersonCode = QEa_TrnnHist.PersonCode) " & _
+                "WHERE QEa_TrnnAssign.EmpTypeID = " & Me![OG_EmpTypeID] & " " & _
+                "And QEa_TrnnAssign.cDept = '" & cDept & "' " & _
+                "And QEa_TrnnHist.Result = False " & _
+                "And (QEa_TrnnHist.RevDate >= #" & Format(Me![T_StartDate], "mm/dd/yyyy") & "#) " & _
+                "ORDER BY QEa_TrnnHist.CrseCode"
+
+    Set r1 = db.OpenRecordset(csql)
+    Set r2 = db.OpenRecordset("SELECT * FROM QEf_TrnnHist_Rev_w1", dbOpenDynaset)
+    
+
+    If r1.RecordCount <> 0 Then
+        Do Until r1.EOF
+            With r2
+                .AddNew
+                    ![PersonCode] = r1![PersonCode]
+                    If Not IsNull(DLookup("FnameT ", "HRa_Person", "PersonCode= '" & r1![PersonCode] & "' AND EmpTypeID=" & Me![OG_EmpTypeID])) Or DLookup("FnameT ", "HRa_Person", "PersonCode= '" & r1![PersonCode] & "' AND EmpTypeID=" & Me![OG_EmpTypeID]) <> "" Then
+                        cFname = DLookup("FnameT ", "HRa_Person", "PersonCode= '" & r1![PersonCode] & "' AND EmpTypeID=" & Me![OG_EmpTypeID])
+                        cLname = DLookup("LnameT ", "HRa_Person", "PersonCode= '" & r1![PersonCode] & "' AND EmpTypeID=" & Me![OG_EmpTypeID])
+                    End If
+                    ![PersonName] = cFname & "   " & cLname
+                    ![CrseCode] = r1![CrseCode]
+                    If r1![DeptCod] = "DC" Then
+                    ![CrseNam] = DLookup("CrseNam", "QEa_CrseMst", "CrseCode = '" & r1![CrseCode] & "' AND DeptCod = 'DC'")
+                    Else
+                    ![CrseNam] = DLookup("CrseNam", "QEa_CrseMst", "CrseCode = '" & r1![CrseCode] & "' AND DeptCod = '" & cri & "'")
+                    End If
+                    ![RevNo] = r1![RevNo]
+                    ![DeptCod] = r1![DeptCod]
+                    ![RevDate] = r1![RevDate]
+                    ![MthdCode] = r1![MthdCode]
+                    If IsNull(r1![MthdCode]) Or r1![MthdCode] = "" Then
+                        ![MthdNam] = Null
+                    Else
+                        ![MthdNam] = DLookup("MthdNam", "QEm_TrnnMethod", "MthdCode = '" & r1![MthdCode] & "'")
+                    End If
+                    ![TrnnDate] = r1![TrnnDate]
+                    If r1![Result] = True Then
+                        ![Result] = True
+                    Else
+                        ![Result] = False
+                    End If
+                    ![Approve] = r1![Approve]
+                    ![Remark] = r1![Remark]
+                .Update
+            End With
+            r1.MoveNext
+        Loop
+        r1.Close
+        r2.Close
+        Me![QEf_TrnnHist_Rev_s1].Requery
+        'GoSub Rev
+    End If
+    
+    'csql = "SELECT PersonCode " & _
+    '            "FROM QEa_TrnnAssign " & _
+    '            "WHERE cDept= '" & cDept & "' " & _
+    '            "And EmpTypeID=" & Me![OG_EmpTypeID] & " " & _
+    '            "GROUP BY PersonCode " & _
+    '            "ORDER BY PersonCode"
+                
+                csql = "SELECT QEa_TrnnAssign.PersonCode " & _
+                        "FROM QEa_TrnnAssign INNER JOIN HRa_Person ON (QEa_TrnnAssign.EmpTypeID = HRa_Person.EmpTypeID) AND (QEa_TrnnAssign.PersonCode = HRa_Person.PersonCode) " & _
+                        "WHERE QEa_TrnnAssign.cDept = '" & cDept & "' " & _
+                        "And QEa_TrnnAssign.EmpTypeID=" & Me![OG_EmpTypeID] & " " & _
+                        "AND HRa_Person.Status is null " & _
+                        "GROUP BY QEa_TrnnAssign.PersonCode " & _
+                        "ORDER BY QEa_TrnnAssign.PersonCode"
+    Set r3 = db.OpenRecordset(csql)
+    
+    Do Until r3.EOF
+    
+        csql = "SELECT QEa_CrseRev.CrseCode, QEa_CrseRev.RevNo, QEa_CrseRev.DeptCod, QEa_CrseRev.RevDate AS FM_REVDATE, " & _
+                    "QEa_TrnnAssign.AssSeq, QEa_TrnnAssign.Assign, QEa_TrnnAssign.Trainer, QEa_TrnnAssign.MthdCode, " & _
+                    "QEa_TrnnAssign.Approve, QEa_CrseRev.RevDate, QEa_CrseRev.RevSts, QEa_TrnnAssign.PersonCode " & _
+                    "FROM QEa_TrnnAssign LEFT JOIN QEa_CrseRev ON (QEa_TrnnAssign.CrseCode = QEa_CrseRev.CrseCode) " & _
+                    "AND (QEa_TrnnAssign.DeptCod = QEa_CrseRev.DeptCod) " & _
+                    "WHERE(QEa_CrseRev.RevDate >= #" & Format(Me![T_StartDate], "mm/dd/yyyy") & "#) " & _
+                    "And QEa_CrseRev.RevSts = 'A' " & _
+                    "And QEa_TrnnAssign.PersonCode ='" & r3![PersonCode] & "' " & _
+                    "ORDER BY QEa_CrseRev.CrseCode, QEa_CrseRev.RevNo"
+        Set r4 = db.OpenRecordset(csql)
+        
+
+        
+        
+        Do Until r4.EOF
+        
+        csql = "SELECT HRa_Person.PersonCode, HRa_Person.EmpTypeID, HRa_Person.StartDate " & _
+                    "FROM HRa_Person " & _
+                    "WHERE PersonCode='" & r3![PersonCode] & "' AND " & Me![OG_EmpTypeID] & ""
+        Dim r10 As Recordset
+        Set r10 = db.OpenRecordset(csql)
+        If r4![FM_REVDATE] < r10![StartDate] Then
+            GoTo Next_Course
+        End If
+        
+            csql = "SELECT PersonCode, CrseCode, RevNo, DeptCod, EmpTypeID " & _
+                        "FROM QEa_TrnnHist " & _
+                        "WHERE PersonCode ='" & r3![PersonCode] & "' " & _
+                        "And CrseCode= '" & r4![CrseCode] & "' " & _
+                        "And RevNo =" & r4![RevNo] & " " & _
+                        "And DeptCod = '" & r4![DeptCod] & "' " & _
+                        "And EmpTypeID=" & Me![OG_EmpTypeID] & " " & _
+                        "ORDER BY QEa_TrnnHist.CrseCode, QEa_TrnnHist.RevNo"
+                Dim r5 As Recordset
+                Set r5 = db.OpenRecordset(csql)
+                If r5.RecordCount = 0 Then
+                    Set r2 = db.OpenRecordset("SELECT * FROM QEf_TrnnHist_Rev_w1", dbOpenDynaset)
+                    With r2
+                        .AddNew
+                            ![PersonCode] = r4![PersonCode]
+                            cFname = DLookup("FnameT ", "HRa_Person", "PersonCode= '" & r4![PersonCode] & "' AND EmpTypeID=" & Me![OG_EmpTypeID])
+                            cLname = DLookup("LnameT ", "HRa_Person", "PersonCode= '" & r4![PersonCode] & "' AND EmpTypeID=" & Me![OG_EmpTypeID])
+                            ![PersonName] = cFname & "   " & cLname
+                            ![CrseCode] = r4![CrseCode]
+                            If r4![DeptCod] = "DC" Then
+                            ![CrseNam] = DLookup("CrseNam", "QEa_CrseMst", "CrseCode = '" & r4![CrseCode] & "' AND DeptCod = 'DC'")
+                            Else
+                            ![CrseNam] = DLookup("CrseNam", "QEa_CrseMst", "CrseCode = '" & r4![CrseCode] & "' AND DeptCod = '" & cri & "'")
+                            End If
+                            ![RevNo] = r4![RevNo]
+                            ![DeptCod] = r4![DeptCod]
+                            ![RevDate] = r4![RevDate]
+                            ![MthdCode] = r4![MthdCode]
+                            If IsNull(r4![MthdCode]) Or r4![MthdCode] = "" Then
+                                ![MthdNam] = Null
+                            Else
+                                ![MthdNam] = DLookup("MthdNam", "QEm_TrnnMethod", "MthdCode = '" & r4![MthdCode] & "'")
+                            End If
+                            '![TrnnDate] = r4![TrnnDate]
+                            'If r4![Result] = True Then
+                            '    ![Result] = True
+                            'Else
+                            '    ![Result] = False
+                            'End If
+                            ![Approve] = r4![Approve]
+                            
+                            '![Remark] = r4![Remark]
+                        .Update
+                    End With
+                End If
+Next_Course:
+            r4.MoveNext
+        Loop
+
+        r3.MoveNext
+    Loop
+
+    
+    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    Me![QEf_TrnnHist_Rev_s1].Requery
+    Me![QEf_TrnnHist_Rev_s1].SetFocus
+
+    Me![B_Inquiry].Enabled = False
+    Me![OG_EmpTypeID].Enabled = False
+    Me![T_StartDate].Enabled = False
+    Me![B_Cancel].Enabled = True
+End Sub

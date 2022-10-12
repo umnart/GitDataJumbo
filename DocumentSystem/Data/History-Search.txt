@@ -1,0 +1,155 @@
+    Private Sub bntFind_Click(sender As Object, e As EventArgs) Handles bntFind.Click
+        ' Dim strStartDate As String = substring(TxtStartDate.Text, 6, 4) & "-" & substring(TxtStartDate.Text, 3, 2) & "-" & substring(TxtStartDate.Text, 1, 2)
+
+        Me.dgvDetail.AllowUserToAddRows = True
+        dgvDetail.Rows.Clear()
+        'Select Tranning Assign  MAXEFFDATE <= StartDate
+
+        'Select StartDate For TrainingAssign
+        Dim Sql9 As String = "Select    StartDate "
+        Sql9 = Sql9 + "FROM QEa_Training_Assign "
+        Sql9 = Sql9 + "WHERE EmployeeNo ='" & TxtEmployeeNo.SelectedValue.ToString & "' "
+        Sql9 = Sql9 + "AND Dept ='" & strDeptData & "' "
+        Sql9 = Sql9 + "GROUP BY StartDate "
+        Sql9 = Sql9 + "ORDER BY StartDate "
+        Dim Dt9 As DataTable
+        Dt9 = DB_CMD.GetData_Table(Sql9, DB_CMD.ObjConn)
+        For Each Dtr9 As DataRow In Dt9.Rows
+
+            TxtStartDate.Text = Dtr9.Item("StartDate").ToString
+
+
+            Dim Sql As String = "SELECT QEa_Training_Assign.EmployeeNo, qEa_Training_Assign.DOCNO, QEa_CourseMaster.DOCNAME, QEa_Training_Assign.DOCDEPT,QEa_Training_Assign.MthdCode,QEa_Training_Assign.Approve, QEa_CourseMaster.STATUS, "
+            Sql = Sql + "  MAX(QEa_CourseMaster.REVNO) AS MAXREVNO, MAX(QEa_CourseMaster.EFFDATE) as MAXEFFDATE ,QEa_Training_Assign.StartDate "
+            Sql = Sql + " FROM  QEa_Training_Assign LEFT OUTER JOIN  QEa_CourseMaster ON QEa_Training_Assign.DOCNO = QEa_CourseMaster.DOCNO AND QEa_Training_Assign.DOCDEPT = QEa_CourseMaster.DOCDEPT "
+            Sql = Sql + " WHERE	CONVERT(DATE,QEa_CourseMaster.EFFDATE,105) <= '" & TxtStartDate.Text & "' "
+            Sql = Sql + " AND (CONVERT(DATE,QEa_Training_Assign.StartDate,105) ='" & TxtStartDate.Text & "') "
+            Sql = Sql + " GROUP BY QEa_Training_Assign.EmployeeNo, QEa_Training_Assign.DOCNO, QEa_CourseMaster.DOCNAME, QEa_Training_Assign.DOCDEPT,QEa_Training_Assign.MthdCode,QEa_Training_Assign.Approve, QEa_CourseMaster.STATUS, QEa_Training_Assign.StartDate "
+            Sql = Sql + " HAVING EmployeeNo ='" & TxtEmployeeNo.SelectedValue.ToString & "' "
+            Sql = Sql + " AND QEa_CourseMaster.STATUS ='A' "
+            Dim Dt As New DataTable
+            Dt = DB_CMD.GetData_Table(Sql, DB_CMD.ObjConn)
+
+
+            Dim intNo As Integer = 1
+            For Each Dtr As DataRow In Dt.Rows
+                With dgvDetail
+                    ' intM = 1
+                    'intW = 1
+
+
+                    Application.DoEvents()
+                    .Rows.Add()
+                    '.Item(0, .Rows.Count - 2).Value = intNo
+                    .Item(1, .Rows.Count - 2).Value = Dtr.Item("DOCNO").ToString
+                    .Item(2, .Rows.Count - 2).Value = Dtr.Item("MAXREVNO").ToString
+                    .Item(3, .Rows.Count - 2).Value = Dtr.Item("MAXEFFDATE").ToString
+                    .Item(4, .Rows.Count - 2).Value = Dtr.Item("DOCNAME").ToString
+
+                    Dim Sql2 As String = "Select  * From QEa_Training_Method  WHERE MthdCode = '" & Dtr.Item("MthdCode").ToString & "' ORDER BY MthdCode "
+                    Dim Dt2 As New DataTable
+                    Dt2 = DB_CMD.GetData_Table(Sql2, DB_CMD.ObjConn)
+                    For Each Dtr2 As DataRow In Dt2.Rows
+                        .Item(5, .Rows.Count - 2).Value = Dtr2.Item("MthdNam").ToString
+                    Next
+                    ' .Item(6, .Rows.Count - 2).Value = Dtr.Item("Approve").ToString
+                    ' .Item(7, .Rows.Count - 2).Value = Dtr.Item("Approve").ToString
+                    .Item(9, .Rows.Count - 2).Value = Dtr.Item("Approve").ToString
+                    '.Item(9, .Rows.Count - 2).Value = Dtr.Item("Assign").ToString
+                    '.Item(10, .Rows.Count - 2).Value = Dtr.Item("Trainer").ToString
+                    '.Item(11, .Rows.Count - 2).Value = Dtr.Item("MthdCode").ToString
+
+                End With
+
+                'intNo = intNo + 1
+
+            Next
+
+
+            'Select Tranning Assign MAXEFFDATE > StartDate
+
+            Dim Sql1 As String = "SELECT QEa_Training_Assign.EmployeeNo, QEa_Training_Assign.DOCNO, QEa_CourseMaster.DOCNAME, QEa_Training_Assign.DOCDEPT, QEa_Training_Assign.MthdCode, QEa_Training_Assign.Approve, QEa_CourseMaster.STATUS, QEa_CourseMaster.REVNO , QEa_CourseMaster.EFFDATE,QEa_Training_Assign.StartDate "
+            Sql1 = Sql1 + " FROM QEa_Training_Assign LEFT OUTER JOIN QEa_CourseMaster ON QEa_Training_Assign.DOCNO = QEa_CourseMaster.DOCNO AND QEa_Training_Assign.DOCDEPT = QEa_CourseMaster.DOCDEPT "
+            Sql1 = Sql1 + " WHERE	CONVERT(DATE,QEa_CourseMaster.EFFDATE,105) > '" & TxtStartDate.Text & "' "
+            Sql1 = Sql1 + " And QEa_Training_Assign.EmployeeNo ='" & TxtEmployeeNo.SelectedValue.ToString & "' "
+            Sql1 = Sql1 + " AND (QEa_CourseMaster.STATUS = 'A') "
+            Sql1 = Sql1 + " AND	CONVERT(DATE,QEa_Training_Assign.StartDate,105) = '" & TxtStartDate.Text & "' "
+            Sql1 = Sql1 + " ORDER BY QEa_Training_Assign.DOCNO, QEa_CourseMaster.REVNO "
+            Dim Dt1 As New DataTable
+            Dt1 = DB_CMD.GetData_Table(Sql1, DB_CMD.ObjConn)
+            'dgvDetail.Rows.Clear()
+
+            'Dim intNo As Integer = 1
+            For Each Dtr1 As DataRow In Dt1.Rows
+                With dgvDetail
+                    ' intM = 1
+                    'intW = 1
+
+                    If Dtr1.Item("DOCNO").ToString = "F-GA-017" Then
+                        MsgBox("XXXXXXX")
+                    End If
+
+
+                    Dim Sql10 As String = "Select  *  "
+                    Sql10 = Sql10 + "FROM QEa_Training_Assign "
+                    Sql10 = Sql10 + "WHERE EmployeeNo ='" & TxtEmployeeNo.SelectedValue.ToString & "' "
+                    Sql10 = Sql10 + "AND Dept ='" & strDeptData & "' "
+                    Sql10 = Sql10 + "AND DOCNO ='" & Dtr1.Item("DOCNO").ToString & "' "
+                    Sql10 = Sql10 + "ORDER BY StartDate "
+                    Dim Dt10 As DataTable
+                    Dt10 = DB_CMD.GetData_Table(Sql10, DB_CMD.ObjConn)
+                    For Each Dtr10 As DataRow In Dt10.Rows
+
+                        '  GoTo NEXTSTEP_1
+
+                        Application.DoEvents()
+                        .Rows.Add()
+                        ' .Item(0, .Rows.Count - 2).Value = intNo
+                        .Item(1, .Rows.Count - 2).Value = Dtr1.Item("DOCNO").ToString
+                        .Item(2, .Rows.Count - 2).Value = Dtr1.Item("REVNO").ToString
+                        .Item(3, .Rows.Count - 2).Value = Dtr1.Item("EFFDATE").ToString
+                        .Item(4, .Rows.Count - 2).Value = Dtr1.Item("DOCNAME").ToString
+
+                        Dim Sql4 As String = "Select  * From QEa_Training_Method  WHERE MthdCode = '" & Dtr1.Item("MthdCode").ToString & "' ORDER BY MthdCode "
+                        Dim Dt4 As New DataTable
+                        Dt4 = DB_CMD.GetData_Table(Sql4, DB_CMD.ObjConn)
+                        For Each Dtr4 As DataRow In Dt4.Rows
+                            .Item(5, .Rows.Count - 2).Value = Dtr4.Item("MthdNam").ToString
+                        Next
+                        ' .Item(6, .Rows.Count - 2).Value = Dtr.Item("Approve").ToString
+                        ' .Item(7, .Rows.Count - 2).Value = Dtr.Item("Approve").ToString
+                        .Item(9, .Rows.Count - 2).Value = Dtr1.Item("Approve").ToString
+                        '.Item(9, .Rows.Count - 2).Value = Dtr.Item("Assign").ToString
+                        '.Item(10, .Rows.Count - 2).Value = Dtr.Item("Trainer").ToString
+                        '.Item(11, .Rows.Count - 2).Value = Dtr.Item("MthdCode").ToString
+
+
+                    Next
+
+
+
+                End With
+
+                ' intNo = intNo + 1
+
+NEXTSTEP_1:
+
+            Next
+
+
+
+
+        Next
+
+        dgvDetail.Sort(dgvDetail.Columns(1), ComponentModel.ListSortDirection.Ascending)
+        ' dgvDetail.Sort(dgvDetail.Columns(1), ComponentModel.ListSortDirection.Ascending)
+
+        Call SelectStartDate()
+
+        '   Catch ex As Exception
+
+        '  End Try
+
+        Me.dgvDetail.AllowUserToAddRows = False
+
+    End Sub

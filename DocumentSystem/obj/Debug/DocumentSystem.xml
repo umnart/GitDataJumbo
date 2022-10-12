@@ -1,0 +1,1626 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DocumentSystem
+</name>
+</assembly>
+<members>
+<member name="T:DocumentSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._11954453151817762013molumen_red_square_error_warning_icon_svg_hi">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._11954453151817762013molumen_red_square_error_warning_icon_svg1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._11954453151817762013molumen_red_square_error_warning_icon_svg2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._11954453151817762013molumen_red_square_error_warning_icon_svg3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._11954453151817762013molumen_red_square_error_warning_icon_svg4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._11954453151817762013molumen_red_square_error_warning_icon_svg5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._11954453151817762013molumen_red_square_error_warning_icon_svg6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._11954453151817762013molumen_red_square_error_warning_icon_svg7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._13014619901547782854minimizebutton_hi">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._13014619901547782854minimizebutton_hi__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._13014619901547782854minimizebutton_hi1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._1724717__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._1902270__Custom___3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._1902270__Custom___4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._1902270__Custom___4_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._2000px_Microsoft_Excel_2013_logo_svg__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._2000px_Microsoft_Excel_2013_logo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._2000px_Microsoft_Excel_2013_logo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512__Custom___2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512__Custom___2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512__Custom___2_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512__Custom___2_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512__Custom___2_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512__Custom___2_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512__Custom___2_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512__Custom___2_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512__Custom___3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_512__Custom___3_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._374_5121">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._49728">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources._99_994660_take_the_free_assessment_findings_icon_clipart_png">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.add_document_icon_1954081">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.add_document_icon_19540811">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.add_document_icon_19540812">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.add_user__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.add_user__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.canva_man_laptop_computer_technology_education_icon_vector_graphic_MAB7lHHOi10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.canva_man_laptop_computer_technology_education_icon_vector_graphic_MAB7lHHOi10__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.canva_man_laptop_computer_technology_education_icon_vector_graphic_MAB7lHHOi10__Custom___2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.canva_man_laptop_computer_technology_education_icon_vector_graphic_MAB7lHHOi10__Custom___2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.canva_man_laptop_computer_technology_education_icon_vector_graphic_MAB7lHHOi10__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.canva_man_laptop_computer_technology_education_icon_vector_graphic_MAB7lHHOi101">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Check">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.cheque__Custom___3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.cheque__Custom___3_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Close1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.contackEmail3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.contackEmail3__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.contackEmail3__Custom___Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.contackEmail3__Custom___Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.contackEmail3__Custom___Custom_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.contackEmail3__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.delete_button_pngrepo_com">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.delete_button_pngrepo_com1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.delete_button_pngrepo_com2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.delete_icon_image_15_jpg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.delete_icon_image_15_jpg__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.delete_icon_image_151">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.delete_icon_image_152">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Directory_Submission_01_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Directory_Submission_01_512__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Directory_Submission_01_512__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.document">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.document__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.document__Custom___2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.eco_green_machine_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.email">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Email___222">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Email__22">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Email__22__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Email__22__Custom___2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Email__221">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Email__222">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Email_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.email1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Find">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.fsvxlzqocyhmrblzvehl">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.fsvxlzqocyhmrblzvehl__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Icon_Printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.images__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.imagesEHZ7Y6RZ__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.imagesEHZ7Y6RZ__Custom___2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.imagesEHZ7Y6RZ__Custom___2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.imagesEHZ7Y6RZ__Custom___2_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.imagesEHZ7Y6RZ__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.key">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.key11__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Know_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.list_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.list_512__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Login_Icon__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Login_Icon__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Login_Icon__Custom_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.M_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.M_1__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.M_1__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.M_15__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.M_17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.M_19__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.M_k17__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.M_k18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.maintenance_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.maintenance_icon__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.maintenance_icon__Custom___2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.maintenance_icon__Custom___2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.modify__report_png_image_14514__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.new_database_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.new_database_5121">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.new_database_5122">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.new_database_5123">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.new_database_5124">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.new_database_5125">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Plus_Folder_icon__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Plus_Folder_icon__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.press">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.press__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.press__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.press__Custom_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Publications_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Q1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Q11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Q2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Q3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Q4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.refer_instruction_manual_iso_sign_is_1015__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.refer_instruction_manual_iso_sign_is_1015__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Report">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Report__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Report__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Report__Custom_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Report__Custom_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Report__Custom_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.request_20form__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save_icon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save_icon11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save_icon12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save_icon13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save_icon14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save_icon15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save_icon16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save_icon2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save_icon3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save1__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Save1__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.search_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.search_icon__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.search_icon__Custom_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.search_icon__Custom_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.search_icon__Custom_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.search_icon__Custom_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.search_icon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.search_icong__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Solutions_and_Products_Maintenance_Management_Icon_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.SUNIF_LOGO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.trash_256">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.User">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DocumentSystem.My.Resources.Resources.Web_Development_Icon_512px__Custom_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:DocumentSystem.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_KB">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_KB.DtHistory_Retraining_Report_KBDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_KB.DtHistory_Retraining_Report_KBRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_KB.DtHistory_Retraining_Report_KBRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_KBTableAdapters.DtHistory_Retraining_Report_KBTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_KBTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsHistory_Retraining_Report_KBTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsHistory_Retraining_Report_KB,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsHistory_Retraining_Report_KBTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsHistory_Retraining_Report_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsHistory_Retraining_Report_KBTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsHistory_Retraining_Report_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsHistory_Retraining_Report_KBTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsHistory_Retraining_Report_KBTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsHistory_Retraining_Report_KB)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_KBTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_KBTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_TP">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_TP.DtHistory_ReTraining_TPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_TP.DtHistory_ReTraining_TPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_TP.DtHistory_ReTraining_TPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_TPTableAdapters.DtHistory_ReTraining_TPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_TPTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsHistory_Retraining_Report_TPTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsHistory_Retraining_Report_TP,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsHistory_Retraining_Report_TPTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsHistory_Retraining_Report_TP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsHistory_Retraining_Report_TPTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsHistory_Retraining_Report_TP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsHistory_Retraining_Report_TPTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsHistory_Retraining_Report_TPTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsHistory_Retraining_Report_TP)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_TPTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsHistory_Retraining_Report_TPTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport.DtTrainingReportTPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport.DtTrainingReportTPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport.DtTrainingReportTPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReportTableAdapters.DtTrainingReportTPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReportTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTrainingReportTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsTrainingReport,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTrainingReportTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsTrainingReport,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTrainingReportTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsTrainingReport,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTrainingReportTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTrainingReportTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsTrainingReport)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReportTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReportTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport_KB">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport_KB.DtTrainingReport_KBDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport_KB.DtTrainingReport_KBRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport_KB.DtTrainingReport_KBRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport_KBTableAdapters.DtTrainingReport_KBTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport_KBTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTrainingReport_KBTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsTrainingReport_KB,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTrainingReport_KBTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsTrainingReport_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTrainingReport_KBTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsTrainingReport_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTrainingReport_KBTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTrainingReport_KBTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsTrainingReport_KB)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport_KBTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTrainingReport_KBTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report.DtTraining_Assign_ReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report.DtTraining_Assign_ReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report.DtTraining_Assign_ReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_ReportTableAdapters.DtTraining_Assign_ReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_ReportTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_ReportTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsTraining_Assign_Report,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_ReportTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsTraining_Assign_Report,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_ReportTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsTraining_Assign_Report,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_ReportTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_ReportTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsTraining_Assign_Report)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_ReportTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_ReportTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report_KB">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report_KB.Dt_Training_Assign_Report_KBDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report_KB.Dt_Training_Assign_Report_KBRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report_KB.Dt_Training_Assign_Report_KBRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report_KBTableAdapters.Dt_Training_Assign_Report_KBTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report_KBTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Report_KBTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsTraining_Assign_Report_KB,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Report_KBTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsTraining_Assign_Report_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Report_KBTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsTraining_Assign_Report_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Report_KBTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Report_KBTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsTraining_Assign_Report_KB)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report_KBTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Report_KBTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_KB">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_KB.DtTraining_Assign_Retraining_Report_KBDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_KB.DtTraining_Assign_Retraining_Report_KBRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_KB.DtTraining_Assign_Retraining_Report_KBRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_KBTableAdapters.DtTraining_Assign_Retraining_Report_KBTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_KBTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Retraining_Report_KBTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsTraining_Assign_Retraining_Report_KB,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Retraining_Report_KBTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsTraining_Assign_Retraining_Report_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Retraining_Report_KBTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsTraining_Assign_Retraining_Report_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Retraining_Report_KBTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Retraining_Report_KBTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsTraining_Assign_Retraining_Report_KB)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_KBTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_KBTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_TP">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_TP.DtTraining_Assign_Retraining_Report_TPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_TP.DtTraining_Assign_Retraining_Report_TPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_TP.DtTraining_Assign_Retraining_Report_TPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_TPTableAdapters.DtTraining_Assign_Retraining_Report_TPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_TPTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Retraining_Report_TPTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsTraining_Assign_Retraining_Report_TP,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Retraining_Report_TPTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsTraining_Assign_Retraining_Report_TP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Retraining_Report_TPTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsTraining_Assign_Retraining_Report_TP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Retraining_Report_TPTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_Assign_Retraining_Report_TPTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsTraining_Assign_Retraining_Report_TP)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_TPTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_Assign_Retraining_Report_TPTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_KB">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_KB.DtTraining_History_KBDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_KB.DtTraining_History_KBRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_KB.DtTraining_History_KBRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_KBTableAdapters.DtTraining_History_KBTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_KBTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_KBTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsTraining_History_KB,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_KBTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsTraining_History_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_KBTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsTraining_History_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_KBTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_KBTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsTraining_History_KB)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_KBTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_KBTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_KB">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_KB.DtTraining_History_LastRev_KBDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_KB.DtTraining_History_LastRev_KBRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_KB.DtTraining_History_LastRev_KBRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_KBTableAdapters.DtTraining_History_LastRev_KBTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_KBTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_LastRev_KBTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsTraining_History_LastRev_KB,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_LastRev_KBTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsTraining_History_LastRev_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_LastRev_KBTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsTraining_History_LastRev_KB,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_LastRev_KBTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_LastRev_KBTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsTraining_History_LastRev_KB)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_KBTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_KBTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_TP">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_TP.DtTraining_History_LastRev_TPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_TP.DtTraining_History_LastRev_TPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_TP.DtTraining_History_LastRev_TPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_TPTableAdapters.DtTraining_History_LastRev_TPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_TPTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_LastRev_TPTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsTraining_History_LastRev_TP,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_LastRev_TPTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsTraining_History_LastRev_TP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_LastRev_TPTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsTraining_History_LastRev_TP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_LastRev_TPTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_LastRev_TPTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsTraining_History_LastRev_TP)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_TPTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_LastRev_TPTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_TP">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_TP.DtTraining_History_TPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_TP.DtTraining_History_TPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_TP.DtTraining_History_TPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_TPTableAdapters.DtTraining_History_TPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_TPTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_TPTableAdapters.TableAdapterManager.UpdateUpdatedRows(DocumentSystem.DsTraining_History_TP,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_TPTableAdapters.TableAdapterManager.UpdateInsertedRows(DocumentSystem.DsTraining_History_TP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_TPTableAdapters.TableAdapterManager.UpdateDeletedRows(DocumentSystem.DsTraining_History_TP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_TPTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DocumentSystem.DsTraining_History_TPTableAdapters.TableAdapterManager.UpdateAll(DocumentSystem.DsTraining_History_TP)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_TPTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DocumentSystem.DsTraining_History_TPTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

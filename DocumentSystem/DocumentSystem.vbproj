@@ -1,0 +1,1651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E9D0826-9015-4DE2-9AA3-88DC05A5BBD4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DocumentSystem.My.MyApplication</StartupObject>
+    <RootNamespace>DocumentSystem</RootNamespace>
+    <AssemblyName>DocumentSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\10.1.1.4\app\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <PublisherName>DocumentSystem</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>253</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DocumentSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>DocumentSystem.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DocumentSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>DocumentSystem.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7345A6C5B4778331BD15D7D0BEE4C9AF229A709E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DocumentSystem_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1-DAR\From\FrmApproveDAR.Designer.vb">
+      <DependentUpon>FrmApproveDAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmApproveDAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmAttFile.Designer.vb">
+      <DependentUpon>FrmAttFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmAttFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmCommentDelete.Designer.vb">
+      <DependentUpon>FrmCommentDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmCommentDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmCourseMaster.Designer.vb">
+      <DependentUpon>FrmCourseMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmCourseMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocSysiTem_Copy.Designer.vb">
+      <DependentUpon>FrmDocSysiTem_Copy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocSysiTem_Copy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocSys_RcRt.Designer.vb">
+      <DependentUpon>FrmDocSys_RcRt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocSys_RcRt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocSys_RcRt_Receive.Designer.vb">
+      <DependentUpon>FrmDocSys_RcRt_Receive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocSys_RcRt_Receive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocumentSystem.Designer.vb">
+      <DependentUpon>FrmDocumentSystem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocumentSystem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocumentSystem_Find.Designer.vb">
+      <DependentUpon>FrmDocumentSystem_Find.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocumentSystem_Find.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocumentSystem_SelectDept.Designer.vb">
+      <DependentUpon>FrmDocumentSystem_SelectDept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocumentSystem_SelectDept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocumentSystem_SendMail.Designer.vb">
+      <DependentUpon>FrmDocumentSystem_SendMail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmDocumentSystem_SendMail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmEmailList.Designer.vb">
+      <DependentUpon>FrmEmailList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmEmailList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmKMEdit.Designer.vb">
+      <DependentUpon>FrmKMEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmKMEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmKMMasterList.Designer.vb">
+      <DependentUpon>FrmKMMasterList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmKMMasterList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmKMViewData.Designer.vb">
+      <DependentUpon>FrmKMViewData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmKMViewData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmLogon.Designer.vb">
+      <DependentUpon>FrmLogon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmLogon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmLogonChangePass.Designer.vb">
+      <DependentUpon>FrmLogonChangePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmLogonChangePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmMasterLIst.Designer.vb">
+      <DependentUpon>FrmMasterLIst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmMasterLIst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmSendDocToDept.Designer.vb">
+      <DependentUpon>FrmSendDocToDept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmSendDocToDept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmSubMenu.Designer.vb">
+      <DependentUpon>FrmSubMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmSubMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmSub_CourseMaster.Designer.vb">
+      <DependentUpon>FrmSub_CourseMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmSub_CourseMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmToDept.Designer.vb">
+      <DependentUpon>FrmToDept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmToDept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmUserLogOn.Designer.vb">
+      <DependentUpon>FrmUserLogOn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmUserLogOn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmEditDARNO.Designer.vb">
+      <DependentUpon>FrmEditDARNO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmEditDARNO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmMTC_Document.Designer.vb">
+      <DependentUpon>FrmMTC_Document.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmMTC_Document.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmQEa_DocSys_SndDoc.Designer.vb">
+      <DependentUpon>FrmQEa_DocSys_SndDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmQEa_DocSys_SndDoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmTranferTainAssign.Designer.vb">
+      <DependentUpon>FrmTranferTainAssign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmTranferTainAssign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmTranferTraining_History.Designer.vb">
+      <DependentUpon>FrmTranferTraining_History.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmTranferTraining_History.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmUpCourseMasterExcel.Designer.vb">
+      <DependentUpon>FrmUpCourseMasterExcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmUpCourseMasterExcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmUpdateCourseMaster.Designer.vb">
+      <DependentUpon>FrmUpdateCourseMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmUpdateCourseMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\Menu\LoadingForm.Designer.vb">
+      <DependentUpon>LoadingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\Menu\LoadingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\Class-Module\C_QEa_Training_Assign.vb" />
+    <Compile Include="2-Traning\Class-Module\C_QEa_Training_CrseSet.vb" />
+    <Compile Include="2-Traning\Class-Module\C_QEa_Training_Person.vb" />
+    <Compile Include="2-Traning\Class-Module\C_QEa_Training_ReTaining_Assign.vb" />
+    <Compile Include="2-Traning\From\0FrmBackup_Program.Designer.vb">
+      <DependentUpon>0FrmBackup_Program.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\0FrmBackup_Program.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmAdvFinder.Designer.vb">
+      <DependentUpon>FrmAdvFinder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmAdvFinder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmImportExcel.Designer.vb">
+      <DependentUpon>FrmImportExcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmImportExcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Assign.Designer.vb">
+      <DependentUpon>FrmTraining_Assign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Assign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Assign_Copy.Designer.vb">
+      <DependentUpon>FrmTraining_Assign_Copy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Assign_Copy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Assign_Edit.Designer.vb">
+      <DependentUpon>FrmTraining_Assign_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Assign_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Assign_ReTraining.Designer.vb">
+      <DependentUpon>FrmTraining_Assign_ReTraining.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Assign_ReTraining.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Assign_Select.Designer.vb">
+      <DependentUpon>FrmTraining_Assign_Select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Assign_Select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Check_Retraining.Designer.vb">
+      <DependentUpon>FrmTraining_Check_Retraining.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Check_Retraining.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_CrseSet.Designer.vb">
+      <DependentUpon>FrmTraining_CrseSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_CrseSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_CrseSet_Find.Designer.vb">
+      <DependentUpon>FrmTraining_CrseSet_Find.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_CrseSet_Find.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_CrseSet_Select.Designer.vb">
+      <DependentUpon>FrmTraining_CrseSet_Select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_CrseSet_Select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History.Designer.vb">
+      <DependentUpon>FrmTraining_History.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Check.Designer.vb">
+      <DependentUpon>FrmTraining_History_Check.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Check.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Check_Edit.Designer.vb">
+      <DependentUpon>FrmTraining_History_Check_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Check_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Copy.Designer.vb">
+      <DependentUpon>FrmTraining_History_Copy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Copy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Edit.Designer.vb">
+      <DependentUpon>FrmTraining_History_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Retraining.Designer.vb">
+      <DependentUpon>FrmTraining_History_Retraining.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Retraining.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Retraining_Select.Designer.vb">
+      <DependentUpon>FrmTraining_History_Retraining_Select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_History_Retraining_Select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Person.Designer.vb">
+      <DependentUpon>FrmTraining_Person.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\From\FrmTraining_Person.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmUpdateDataFromSA.Designer.vb">
+      <DependentUpon>FrmUpdateDataFromSA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\Menu\FrmUpdateDataFromSA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\Report\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsHistory_Retraining_Report_KB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsHistory_Retraining_Report_KB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsHistory_Retraining_Report_TP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsHistory_Retraining_Report_TP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTrainingReport.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsTrainingReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTrainingReport.vb">
+      <DependentUpon>DsTrainingReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTrainingReport_KB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsTrainingReport_KB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_Assign_Report.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsTraining_Assign_Report.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_Assign_Report.vb">
+      <DependentUpon>DsTraining_Assign_Report.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_Assign_Report_KB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsTraining_Assign_Report_KB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_Assign_Retraining_Report_KB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsTraining_Assign_Retraining_Report_KB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_Assign_Retraining_Report_TP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsTraining_Assign_Retraining_Report_TP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_History_KB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsTraining_History_KB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_History_LastRev_KB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsTraining_History_LastRev_KB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_History_LastRev_TP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsTraining_History_LastRev_TP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_History_LastRev_TP.vb">
+      <DependentUpon>DsTraining_History_LastRev_TP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_History_TP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsTraining_History_TP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\DsTraining_History_TP.vb">
+      <DependentUpon>DsTraining_History_TP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\FrmTraining_Assign_Report.Designer.vb">
+      <DependentUpon>FrmTraining_Assign_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\FrmTraining_Assign_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\Report\FrmTraining_History_Retraining_Report.Designer.vb">
+      <DependentUpon>FrmTraining_History_Retraining_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\FrmTraining_History_Retraining_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\Report\FrmTraining_History_TP.Designer.vb">
+      <DependentUpon>FrmTraining_History_TP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\FrmTraining_History_TP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2-Traning\Report\FrmTraningReport.Designer.vb">
+      <DependentUpon>FrmTraningReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2-Traning\Report\FrmTraningReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class-Module\ClassConnect.vb" />
+    <Compile Include="Class-Module\C_DB_COMMANDER.vb" />
+    <Compile Include="Class-Module\C_QEa_DocSysItem.vb" />
+    <Compile Include="Class-Module\C_QEa_DocSysItem_Approve.vb" />
+    <Compile Include="Class-Module\C_QEa_DocSys_Dar.vb" />
+    <Compile Include="Class-Module\C_QEa_DocSys_DarApprove.vb" />
+    <Compile Include="Class-Module\C_QEa_SendDocToDept.vb" />
+    <Compile Include="Class-Module\C_QEm_ToDept.vb" />
+    <Compile Include="Class-Module\C_QEm_UserLogOn.vb" />
+    <Compile Include="Class-Module\C_QEn_DarNo.vb" />
+    <Compile Include="Class-Module\C_QEn_RefNo.vb" />
+    <Compile Include="Class-Module\C_QEn_RefNoData.vb" />
+    <Compile Include="Class-Module\C_QEn_RrsNo.vb" />
+    <Compile Include="Class-Module\Loading.vb" />
+    <Compile Include="Class-Module\Module_Variable.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmMainMenu.Designer.vb">
+      <DependentUpon>FrmMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1-DAR\From\FrmMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Function\StrFunction.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Windows\Forms.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\Web-Development-Icon-512px %28Custom%29.png" />
+    <None Include="icon\Solutions-and-Products-Maintenance-Management-Icon-1.png" />
+    <None Include="icon\eco-green-machine-icon.png" />
+    <None Include="icon\refer-instruction-manual-iso-sign-is-1015 %28Custom%29.png" />
+    <None Include="icon\maintenance-icon %28Custom%29.png" />
+    <None Include="icon\maintenance-icon.png" />
+    <None Include="icon\maintenance-icon %28Custom%29 %282%29.png" />
+    <None Include="icon\1724717 %28Custom%29.png" />
+    <None Include="icon\images %28Custom%29.png" />
+    <None Include="icon\49728.png" />
+    <None Include="icon\13014619901547782854minimizebutton-hi %28Custom%29.png" />
+    <None Include="icon\press.png" />
+    <None Include="icon\Icon-Printer.png" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="1-DAR\From\FrmApproveDAR.resx">
+      <DependentUpon>FrmApproveDAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmAttFile.resx">
+      <DependentUpon>FrmAttFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmCommentDelete.resx">
+      <DependentUpon>FrmCommentDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmCourseMaster.resx">
+      <DependentUpon>FrmCourseMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmDocSysiTem_Copy.resx">
+      <DependentUpon>FrmDocSysiTem_Copy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmDocSys_RcRt.resx">
+      <DependentUpon>FrmDocSys_RcRt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmDocSys_RcRt_Receive.resx">
+      <DependentUpon>FrmDocSys_RcRt_Receive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmDocumentSystem.resx">
+      <DependentUpon>FrmDocumentSystem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmDocumentSystem_Find.resx">
+      <DependentUpon>FrmDocumentSystem_Find.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmDocumentSystem_SelectDept.resx">
+      <DependentUpon>FrmDocumentSystem_SelectDept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmDocumentSystem_SendMail.resx">
+      <DependentUpon>FrmDocumentSystem_SendMail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmEmailList.resx">
+      <DependentUpon>FrmEmailList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmKMEdit.resx">
+      <DependentUpon>FrmKMEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmKMMasterList.resx">
+      <DependentUpon>FrmKMMasterList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmKMViewData.resx">
+      <DependentUpon>FrmKMViewData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmLogon.resx">
+      <DependentUpon>FrmLogon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmLogonChangePass.resx">
+      <DependentUpon>FrmLogonChangePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmMasterLIst.resx">
+      <DependentUpon>FrmMasterLIst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmSendDocToDept.resx">
+      <DependentUpon>FrmSendDocToDept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmSubMenu.resx">
+      <DependentUpon>FrmSubMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmSub_CourseMaster.resx">
+      <DependentUpon>FrmSub_CourseMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmToDept.resx">
+      <DependentUpon>FrmToDept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\From\FrmUserLogOn.resx">
+      <DependentUpon>FrmUserLogOn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\Menu\FrmEditDARNO.resx">
+      <DependentUpon>FrmEditDARNO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\Menu\FrmMTC_Document.resx">
+      <DependentUpon>FrmMTC_Document.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\Menu\FrmQEa_DocSys_SndDoc.resx">
+      <DependentUpon>FrmQEa_DocSys_SndDoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\Menu\FrmTranferTainAssign.resx">
+      <DependentUpon>FrmTranferTainAssign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\Menu\FrmTranferTraining_History.resx">
+      <DependentUpon>FrmTranferTraining_History.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\Menu\FrmUpCourseMasterExcel.resx">
+      <DependentUpon>FrmUpCourseMasterExcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\Menu\FrmUpdateCourseMaster.resx">
+      <DependentUpon>FrmUpdateCourseMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\Menu\LoadingForm.resx">
+      <DependentUpon>LoadingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\0FrmBackup_Program.resx">
+      <DependentUpon>0FrmBackup_Program.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmAdvFinder.resx">
+      <DependentUpon>FrmAdvFinder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmImportExcel.resx">
+      <DependentUpon>FrmImportExcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_Assign.resx">
+      <DependentUpon>FrmTraining_Assign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_Assign_Copy.resx">
+      <DependentUpon>FrmTraining_Assign_Copy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_Assign_Edit.resx">
+      <DependentUpon>FrmTraining_Assign_Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_Assign_ReTraining.resx">
+      <DependentUpon>FrmTraining_Assign_ReTraining.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_Assign_Select.resx">
+      <DependentUpon>FrmTraining_Assign_Select.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_Check_Retraining.resx">
+      <DependentUpon>FrmTraining_Check_Retraining.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_CrseSet.resx">
+      <DependentUpon>FrmTraining_CrseSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_CrseSet_Find.resx">
+      <DependentUpon>FrmTraining_CrseSet_Find.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_CrseSet_Select.resx">
+      <DependentUpon>FrmTraining_CrseSet_Select.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_History.resx">
+      <DependentUpon>FrmTraining_History.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_History_Check.resx">
+      <DependentUpon>FrmTraining_History_Check.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_History_Check_Edit.resx">
+      <DependentUpon>FrmTraining_History_Check_Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_History_Copy.resx">
+      <DependentUpon>FrmTraining_History_Copy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_History_Edit.resx">
+      <DependentUpon>FrmTraining_History_Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_History_Retraining.resx">
+      <DependentUpon>FrmTraining_History_Retraining.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_History_Retraining_Select.resx">
+      <DependentUpon>FrmTraining_History_Retraining_Select.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\From\FrmTraining_Person.resx">
+      <DependentUpon>FrmTraining_Person.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-DAR\Menu\FrmUpdateDataFromSA.resx">
+      <DependentUpon>FrmUpdateDataFromSA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\Report\FrmTraining_Assign_Report.resx">
+      <DependentUpon>FrmTraining_Assign_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\Report\FrmTraining_History_Retraining_Report.resx">
+      <DependentUpon>FrmTraining_History_Retraining_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\Report\FrmTraining_History_TP.resx">
+      <DependentUpon>FrmTraining_History_TP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Traning\Report\FrmTraningReport.resx">
+      <DependentUpon>FrmTraningReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="2-Traning\Report\RptTrainingReport_TP.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptTraining_History_TP.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptHistory_Retraining_Report_TP.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptTraining_Assign_Report_TP.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptTraining_Assign_Retraing_Report_TP.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptTraining_Assign_Retraing_Report_KB.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptHistory_Retraining_Report_KB.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptTrainingReport_KB.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptTraining_Assign_Report_KB.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptTraining_History_KB.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptTraining_History_LastRev_TP.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2-Traning\Report\RptTraining_History_LastRev_KB.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2-Traning\Report\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsHistory_Retraining_Report_KB.xsc">
+      <DependentUpon>DsHistory_Retraining_Report_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsHistory_Retraining_Report_KB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsHistory_Retraining_Report_KB.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsHistory_Retraining_Report_KB.xss">
+      <DependentUpon>DsHistory_Retraining_Report_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsHistory_Retraining_Report_TP.xsc">
+      <DependentUpon>DsHistory_Retraining_Report_TP.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsHistory_Retraining_Report_TP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsHistory_Retraining_Report_TP.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsHistory_Retraining_Report_TP.xss">
+      <DependentUpon>DsHistory_Retraining_Report_TP.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTrainingReport.xsc">
+      <DependentUpon>DsTrainingReport.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTrainingReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsTrainingReport.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsTrainingReport.xss">
+      <DependentUpon>DsTrainingReport.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTrainingReport_KB.xsc">
+      <DependentUpon>DsTrainingReport_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTrainingReport_KB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsTrainingReport_KB.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsTrainingReport_KB.xss">
+      <DependentUpon>DsTrainingReport_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Report.xsc">
+      <DependentUpon>DsTraining_Assign_Report.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Report.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsTraining_Assign_Report.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Report.xss">
+      <DependentUpon>DsTraining_Assign_Report.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Report_KB.xsc">
+      <DependentUpon>DsTraining_Assign_Report_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Report_KB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsTraining_Assign_Report_KB.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Report_KB.xss">
+      <DependentUpon>DsTraining_Assign_Report_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Retraining_Report_KB.xsc">
+      <DependentUpon>DsTraining_Assign_Retraining_Report_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Retraining_Report_KB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsTraining_Assign_Retraining_Report_KB.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Retraining_Report_KB.xss">
+      <DependentUpon>DsTraining_Assign_Retraining_Report_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Retraining_Report_TP.xsc">
+      <DependentUpon>DsTraining_Assign_Retraining_Report_TP.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Retraining_Report_TP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsTraining_Assign_Retraining_Report_TP.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_Assign_Retraining_Report_TP.xss">
+      <DependentUpon>DsTraining_Assign_Retraining_Report_TP.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_KB.xsc">
+      <DependentUpon>DsTraining_History_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_KB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsTraining_History_KB.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_KB.xss">
+      <DependentUpon>DsTraining_History_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_LastRev_KB.xsc">
+      <DependentUpon>DsTraining_History_LastRev_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_LastRev_KB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsTraining_History_LastRev_KB.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_LastRev_KB.xss">
+      <DependentUpon>DsTraining_History_LastRev_KB.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_LastRev_TP.xsc">
+      <DependentUpon>DsTraining_History_LastRev_TP.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_LastRev_TP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsTraining_History_LastRev_TP.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_LastRev_TP.xss">
+      <DependentUpon>DsTraining_History_LastRev_TP.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_TP.xsc">
+      <DependentUpon>DsTraining_History_TP.xsd</DependentUpon>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_TP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsTraining_History_TP.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="2-Traning\Report\DsTraining_History_TP.xss">
+      <DependentUpon>DsTraining_History_TP.xsd</DependentUpon>
+    </None>
+    <None Include="DocumentSystem.ruleset" />
+    <None Include="DocumentSystem_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\Know-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\M-1 %28Custom%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\M-15 %28Custom%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\canva-man-laptop-computer-technology-education-icon-vector-graphic-MAB7lHHOi10 %28Custom%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\11954453151817762013molumen_red_square_error_warning_icon.svg.hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\13014619901547782854minimizebutton-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.CoreUtility">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Data.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Data.Framework">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Data.Services">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.DataDesign.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.DataDesign.DataSetDesigner">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.DataDesign.Interfaces">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Debugger.Interop.11.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Debugger.Interop.Internal">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Debugger.InteropA">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Designer.Interfaces">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Diagnostics.Assert">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Diagnostics.PerformanceProvider">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Editor">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.ExtensibilityHosting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.ImageCatalog">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Imaging">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Language.Intellisense">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.ManagedInterfaces">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.OLE.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Package.LanguageService.14.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.ProjectAggregator">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.14.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Design">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Immutable.10.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Immutable.11.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Immutable.12.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Immutable.14.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Interop.10.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Interop.11.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Interop.8.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Interop.9.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Text.Data">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Text.Logic">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Text.UI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Text.UI.Wpf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.TextManager.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.TextManager.Interop.10.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.TextManager.Interop.8.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Threading">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Utilities">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Validation">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.WCFReference.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.WizardFramework">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VSDesigner">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VSDesigner.ExceptionAssistant.SmartTag">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Collections.Immutable">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Threading.Tasks.Dataflow">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\key11 %28Custom%29.jpg" />
+    <None Include="icon\Save1.png" />
+    <None Include="icon\Save-icon.png" />
+    <None Include="icon\trash-256.png" />
+    <None Include="icon\press %28Custom%29.png" />
+    <None Include="icon\delete-icon-image-15.jpg %28Custom%29.png" />
+    <None Include="icon\delete-icon-image-15.jpg.png" />
+    <None Include="icon\Report %28Custom%29.png" />
+    <None Include="icon\new_database-512.png" />
+    <None Include="icon\add.png" />
+    <None Include="icon\Q1.jpg" />
+    <None Include="icon\Login-Icon %28Custom%29.png" />
+    <None Include="icon\User.jpg" />
+    <None Include="icon\key.jpg" />
+    <None Include="icon\search_icon.png" />
+    <None Include="icon\Directory_Submission-01-512 %28Custom%29.png" />
+    <None Include="icon\request%2520form %28Custom%29.png" />
+    <None Include="icon\list-512 %28Custom%29.png" />
+    <None Include="icon\document %28Custom%29.png" />
+    <None Include="icon\add-document-icon_1954081.jpg" />
+    <None Include="icon\374-512 %28Custom%29 %282%29.png" />
+    <None Include="icon\Plus-Folder-icon %28Custom%29.png" />
+    <None Include="icon\delete-button-pngrepo-com.png" />
+    <None Include="icon\canva-man-laptop-computer-technology-education-icon-vector-graphic-MAB7lHHOi10.png" />
+    <None Include="icon\1902270 %28Custom%29 %283%29.png" />
+    <None Include="icon\Save-icon1.png" />
+    <None Include="icon\cheque %28Custom%29 %283%29.png" />
+    <None Include="icon\search_icon %28Custom%29.png" />
+    <None Include="icon\search_icong %28Custom%29.png" />
+    <None Include="icon\Find.jpg" />
+    <None Include="icon\Search.jpg" />
+    <None Include="icon\add-user %28Custom%29.png" />
+    <None Include="icon\modify--report-png-image-14514 %28Custom%29.png" />
+    <None Include="icon\imagesEHZ7Y6RZ %28Custom%29.jpg" />
+    <None Include="icon\99-994660_take-the-free-assessment-findings-icon-clipart.png.jpg" />
+    <None Include="icon\list-512.png" />
+    <None Include="icon\M-19 %28Custom%29.jpg" />
+    <None Include="icon\M-k17 %28Custom%29.png" />
+    <None Include="icon\Q2.jpg" />
+    <None Include="icon\Q3.jpg" />
+    <None Include="icon\Q4.jpg" />
+    <None Include="icon\SUNIF_LOGO.png" />
+    <None Include="icon\374-512.png" />
+    <None Include="icon\M-17.jpg" />
+    <None Include="icon\M-k18.png" />
+    <None Include="icon\M-1.png" />
+    <None Include="icon\2000px-Microsoft_Excel_2013_logo.svg %28Custom%29.png" />
+    <None Include="icon\Check.png" />
+    <None Include="icon\Directory_Submission-01-512.png" />
+    <None Include="icon\Save1 %28Custom%29.png" />
+    <None Include="icon\O\fsvxlzqocyhmrblzvehl.png" />
+    <None Include="icon\O\fsvxlzqocyhmrblzvehl %28Custom%29.png" />
+    <None Include="icon\email.jpg" />
+    <None Include="icon\contackEmail3.png" />
+    <None Include="icon\document.png" />
+    <None Include="icon\document %28Custom%29 %282%29.png" />
+    <None Include="icon\374-512 %28Custom%29 %283%29.png" />
+    <None Include="icon\contackEmail3 %28Custom%29.png" />
+    <None Include="icon\canva-man-laptop-computer-technology-education-icon-vector-graphic-MAB7lHHOi10 %28Custom%29 %282%29.png" />
+    <None Include="icon\imagesEHZ7Y6RZ %28Custom%29 %282%29.jpg" />
+    <None Include="icon\1902270 %28Custom%29 %284%29.png" />
+    <None Include="icon\Publications-Icon.png" />
+    <None Include="icon\Report.png" />
+    <None Include="icon\Close.png" />
+    <None Include="icon\contackEmail3 %28Custom%29 %28Custom%29.png" />
+    <None Include="icon\Email--22.png" />
+    <None Include="icon\Email-1.png" />
+    <None Include="icon\Email--22 %28Custom%29.png" />
+    <None Include="icon\Email--22 %28Custom%29 %282%29.png" />
+    <None Include="icon\Email.--222.png" />
+    <Content Include="MetroFramework.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
