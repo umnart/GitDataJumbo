@@ -73,12 +73,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Class\Customer.cs" />
+    <Compile Include="FrmCustomer.xaml.cs">
+      <DependentUpon>FrmCustomer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FrmExpenses.xaml.cs">
       <DependentUpon>FrmExpenses.xaml</DependentUpon>
     </Compile>
     <Compile Include="Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+    <Page Include="FrmCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FrmExpenses.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

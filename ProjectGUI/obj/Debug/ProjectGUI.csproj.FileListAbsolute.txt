@@ -16,3 +16,5 @@ D:\JOB\2018\Develop\05-Professional C#\Lecture7\ProjectGUI\obj\Debug\Login.g.cs
 D:\JOB\2018\Develop\05-Professional C#\Lecture7\ProjectGUI\obj\Debug\Login.baml
 D:\JOB\2018\Develop\05-Professional C#\Lecture7\ProjectGUI\obj\Debug\FrmExpenses.g.cs
 D:\JOB\2018\Develop\05-Professional C#\Lecture7\ProjectGUI\obj\Debug\FrmExpenses.baml
+D:\JOB\2018\Develop\05-Professional C#\Lecture7\ProjectGUI\obj\Debug\FrmCustomer.g.cs
+D:\JOB\2018\Develop\05-Professional C#\Lecture7\ProjectGUI\obj\Debug\FrmCustomer.baml
